@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.App {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  background: rgb(43, 112, 167);
+  background: radial-gradient(
+    circle,
+    rgba(43, 112, 167, 1) 0%,
+    rgba(57, 101, 149, 1) 12%,
+    rgba(57, 72, 89, 1) 36%,
+    rgba(57, 62, 70, 1) 53%,
+    rgba(34, 40, 49, 1) 76%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #fff;
+  height: 100vh;
+}
